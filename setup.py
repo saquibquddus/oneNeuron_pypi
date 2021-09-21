@@ -8,7 +8,7 @@ USER_NAME = "saquibquddus"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.5",
+    version="0.0.6",
     author=USER_NAME,
     author_email="sakibquddus@gmail.com",
     description="It's a implementation of Perceptron and all_utils",
@@ -28,7 +28,7 @@ setuptools.setup(
     python_requires=">=3.7",
     install_requires=[
         "numpy",
-        "pandas"
+        "pandas",
         "tqdm",
         "matplotlib",
         "joblib",
