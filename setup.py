@@ -8,10 +8,10 @@ USER_NAME = "saquibquddus"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.3",
+    version="0.0.4",
     author=USER_NAME,
     author_email="sakibquddus@gmail.com",
-    description="It's a implementation of Perceptron",
+    description="It's a implementation of Perceptron and all_utils",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
@@ -28,6 +28,12 @@ setuptools.setup(
     python_requires=">=3.7",
     install_requires=[
         "numpy",
-        "tqdm"
+        "pandas"
+        "tqdm",
+        "matplotlib",
+        "joblib",
+        "os",
+        "logging"
+
     ]
 )
