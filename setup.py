@@ -8,7 +8,7 @@ USER_NAME = "saquibquddus"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.4",
+    version="0.0.5",
     author=USER_NAME,
     author_email="sakibquddus@gmail.com",
     description="It's a implementation of Perceptron and all_utils",
@@ -32,7 +32,6 @@ setuptools.setup(
         "tqdm",
         "matplotlib",
         "joblib",
-        "os",
         "logging"
 
     ]
